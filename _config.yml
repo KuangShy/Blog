@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 浅行
+title: 浅行静思
 subtitle:
-description: 学,然后知不足
+description: 浅行静思，勿忘本心。
 author: 疯狂的蟋蟀
 language: zh-Hans
 timezone:
@@ -64,6 +64,23 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+
+# 多说评论
+duoshuo_shortname: kuangshy
+
+# rss
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+
+# sitemap
+baidusitemap:
+  path: baidusitemap.xml
+
+# Analytics
+baidu_analytics: 3386c11801c0ae1aa839bb2141c46279
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
