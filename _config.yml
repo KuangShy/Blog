@@ -68,6 +68,9 @@ theme: next
 # Sitemap
 sitemap:
   path: sitemap.xml
+  
+# google_site_verification
+google_site_verification: gsJiVFMarksiJLo46I6-5Yhpm0uKGr7R1hA-VVr_hGE
 
 # Baidu Sitemap
 baidusitemap:
@@ -78,6 +81,6 @@ baidusitemap:
 deploy:
   type: git
   repo:
-      github: git@github.com:KuangShy/kuangshy.github.io.git
-      coding: git@git.coding.net:kuangshy/kuangshy.git
+    github: git@github.com:KuangShy/kuangshy.github.io.git
+    coding: git@git.coding.net:kuangshy/kuangshy.git
   branch: master
